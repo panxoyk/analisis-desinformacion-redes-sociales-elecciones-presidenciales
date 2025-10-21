@@ -59,7 +59,7 @@ pip install pandas numpy google-api-python-client tqdm networkx matplotlib pytho
 
 ### Paso 3: Ejecución del Notebook
 
-Abra el notebook `P1_TEL351_Francisco-Castillo.ipynb` y ejecute todas las celdas en orden, desde la primera hasta la última (`Cell > Run All`).
+Abra el notebook `analisis_desinformacion_rrss_elecciones_presidenciales.ipynb` y ejecute todas las celdas en orden, desde la primera hasta la última (`Cell > Run All`).
 
 **¡ADVERTENCIA!** La celda de _"Detección de Comunidades"_ es extremadamente intensiva y puede tardar más de 40 minutos en completarse, ya que debe proyectar y filtrar un grafo de 87.7 millones de aristas. Se recomienda paciencia.
 
@@ -68,4 +68,5 @@ Abra el notebook `P1_TEL351_Francisco-Castillo.ipynb` y ejecute todas las celdas
 ## Reproducibilidad
 
 El notebook ha sido configurado con semillas (`random_state=42` y `seed=42`) en todas las celdas que utilizan procesos aleatorios (Detección de Comunidades, Nubes de Palabras, Muestreo de Nodos y Generación de Layouts de Grafos). Esto asegura que los resultados y visualizaciones generados sean 100% reproducibles en cada ejecución.
+
 
