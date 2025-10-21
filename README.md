@@ -1,6 +1,7 @@
 # Análisis de Desinformación en Redes Sociales en las Elecciones Presidenciales
 
 Autor: Francisco Castillo Hernández
+
 Fecha: 19/10/2025
 
 ## Descripción del Problema
@@ -67,3 +68,4 @@ Abra el notebook `P1_TEL351_Francisco-Castillo.ipynb` y ejecute todas las celdas
 ## Reproducibilidad
 
 El notebook ha sido configurado con semillas (`random_state=42` y `seed=42`) en todas las celdas que utilizan procesos aleatorios (Detección de Comunidades, Nubes de Palabras, Muestreo de Nodos y Generación de Layouts de Grafos). Esto asegura que los resultados y visualizaciones generados sean 100% reproducibles en cada ejecución.
+
